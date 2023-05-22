@@ -11,7 +11,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @Description: Eureka服务消费者
  */
 @SpringBootApplication
-//服务消费者
+//服务提供提供者
 @EnableEurekaClient
 public class  PaymentMain8001 {
     public static void main(String[] args) {
